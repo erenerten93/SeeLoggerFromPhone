@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LogViewController: UIViewController {
     @IBOutlet weak var selam: UITextField!
     
     @IBOutlet weak var addLogButton: UIButton!
@@ -45,13 +45,13 @@ class ViewController: UIViewController {
 
 
 
-extension ViewController:textSetterDelegate {
+extension LogViewController:textSetterDelegate {
     func reloadTable() {
         self.logTableView.reloadData()
     }
 
 }
-extension ViewController: UITableViewDelegate,UITableViewDataSource{
+extension LogViewController: UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         Logger.logArray.count
     }
