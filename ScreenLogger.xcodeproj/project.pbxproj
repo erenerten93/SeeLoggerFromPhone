@@ -16,6 +16,10 @@
 		3B040DF4298E997A002556B1 /* ScreenLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B040DF3298E997A002556B1 /* ScreenLoggerTests.swift */; };
 		3B040DFE298E997A002556B1 /* ScreenLoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B040DFD298E997A002556B1 /* ScreenLoggerUITests.swift */; };
 		3B040E00298E997A002556B1 /* ScreenLoggerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B040DFF298E997A002556B1 /* ScreenLoggerUITestsLaunchTests.swift */; };
+		3B040E0D298EA09D002556B1 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B040E0C298EA09D002556B1 /* Logger.swift */; };
+		3B94CF0929B0D5A40047CA2D /* LogsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94CF0829B0D5A40047CA2D /* LogsTableViewCell.swift */; };
+		3B94CF0B29B0D5C30047CA2D /* LogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94CF0A29B0D5C30047CA2D /* LogModel.swift */; };
+		3B94CF0D29B0E5080047CA2D /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3B94CF0C29B0E5080047CA2D /* ReadMe.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		3B040DF9298E997A002556B1 /* ScreenLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B040DFD298E997A002556B1 /* ScreenLoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenLoggerUITests.swift; sourceTree = "<group>"; };
 		3B040DFF298E997A002556B1 /* ScreenLoggerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenLoggerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B040E0C298EA09D002556B1 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		3B94CF0829B0D5A40047CA2D /* LogsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsTableViewCell.swift; sourceTree = "<group>"; };
+		3B94CF0A29B0D5C30047CA2D /* LogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogModel.swift; sourceTree = "<group>"; };
+		3B94CF0C29B0E5080047CA2D /* ReadMe.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,17 @@
 		3B040DDB298E9978002556B1 /* ScreenLogger */ = {
 			isa = PBXGroup;
 			children = (
+				3B94CF0C29B0E5080047CA2D /* ReadMe.rtf */,
 				3B040DDC298E9978002556B1 /* AppDelegate.swift */,
 				3B040DDE298E9978002556B1 /* SceneDelegate.swift */,
 				3B040DE0298E9978002556B1 /* ViewController.swift */,
+				3B94CF0829B0D5A40047CA2D /* LogsTableViewCell.swift */,
+				3B94CF0A29B0D5C30047CA2D /* LogModel.swift */,
 				3B040DE2298E9978002556B1 /* Main.storyboard */,
 				3B040DE5298E997A002556B1 /* Assets.xcassets */,
 				3B040DE7298E997A002556B1 /* LaunchScreen.storyboard */,
 				3B040DEA298E997A002556B1 /* Info.plist */,
+				3B040E0C298EA09D002556B1 /* Logger.swift */,
 			);
 			path = ScreenLogger;
 			sourceTree = "<group>";
@@ -233,6 +245,7 @@
 			files = (
 				3B040DE9298E997A002556B1 /* LaunchScreen.storyboard in Resources */,
 				3B040DE6298E997A002556B1 /* Assets.xcassets in Resources */,
+				3B94CF0D29B0E5080047CA2D /* ReadMe.rtf in Resources */,
 				3B040DE4298E9978002556B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B94CF0929B0D5A40047CA2D /* LogsTableViewCell.swift in Sources */,
 				3B040DE1298E9978002556B1 /* ViewController.swift in Sources */,
 				3B040DDD298E9978002556B1 /* AppDelegate.swift in Sources */,
 				3B040DDF298E9978002556B1 /* SceneDelegate.swift in Sources */,
+				3B94CF0B29B0D5C30047CA2D /* LogModel.swift in Sources */,
+				3B040E0D298EA09D002556B1 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
